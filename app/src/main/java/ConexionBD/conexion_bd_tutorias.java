@@ -17,7 +17,7 @@ public class conexion_bd_tutorias {
         try {
             Class.forName("com.mysql.cj.jdbc.Driver"); // Cargar el driver MySQL
             String URL = "jdbc:mysql://localhost:3306/proyecto_tutorias";
-            conexion = DriverManager.getConnection(URL, "laura", "laura");
+            conexion = DriverManager.getConnection(URL, "judith", "judilth@3");
             System.out.println("¡Conexión establecida correctamente!");
         } catch (ClassNotFoundException e) {
             System.out.println("Error en el controlador de conexión a MySQL: " + e.getMessage());
