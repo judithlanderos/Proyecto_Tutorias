@@ -16,8 +16,8 @@ public class conexion_bd_usuarios {
 
     // Credenciales de la base de datos
     private final String host = "localhost";
-    private final String usuario = "laura";
-    private final String password = "laura";
+    private final String usuario = "judith";
+    private final String password = "judilth@3";
     private final String bd = "usuario_bd_escuela";
 
     // Constructor privado
